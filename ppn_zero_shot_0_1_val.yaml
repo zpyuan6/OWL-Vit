@@ -1,0 +1,16 @@
+path: F:\nematoda\AgriNema\Formated_Dataset\Yolo_11Dec_zeroshot_unseen_0_1
+train: images/train  # train images (relative to 'path') 128 images
+val:  images/val  # val images (relative to 'path') 128 images
+test: images/val  # test images (relative to 'path') 128 images
+
+# number of classes, NOTE: The categorization after 6 is just for space.
+nc: 6
+
+# class names
+names: 
+  0: Meloidogyne
+  1: Potato Cyst Nematode Cyst
+  2: Globodera
+  3: Pratylenchus
+  4: Potato Cyst Nematode Juveniles 2
+  5: Ditylenchus
